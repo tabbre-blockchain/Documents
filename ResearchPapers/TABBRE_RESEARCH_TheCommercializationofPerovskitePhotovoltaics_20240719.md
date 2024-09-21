@@ -4,57 +4,8 @@
 ![TABBRE_RESEARCH_Why_is_renewable_energy_expensive_20240731_html_5aa44f8c.png](https://github.com/tabbre-blockchain/Documents/blob/master/images/FloatinSolar.png?raw=true)
 
 
-[**Summary	2**](#summary)
 
-[**Technological Advancements	3**](#technological-advancements)
-
-[**Commercialization Process	5**](#heading=h.b4gycks466s0)
-
-[**Market Potential	6**](#market-potential)
-
-[**Industry Players	6**](#industry-players)
-
-[Key Companies and Innovators	7](#key-companies-and-innovators)
-
-[Collaborative Efforts and Partnerships	8](#collaborative-efforts-and-partnerships)
-
-[**Funding and Incentives	9**](#funding-and-incentives)
-
-[**Applications	10**](#applications)
-
-[Building-Integrated Photovoltaics	10](#building-integrated-photovoltaics)
-
-[Space-Based Solar Power	10](#space-based-solar-power)
-
-[Tandem Solar Cells	10](#tandem-solar-cells)
-
-[Commercial and Industrial Installations	11](#commercial-and-industrial-installations)
-
-[Consumer Electronics	11](#consumer-electronics)
-
-[**Regulatory and Environmental Considerations	11**](#regulatory-and-environmental-considerations)
-
-[Toxicity and Environmental Impact	11](#toxicity-and-environmental-impact)
-
-[Stability and Reliability	12](#stability-and-reliability)
-
-[Cost Competitiveness and Economic Viability	12](#cost-competitiveness-and-economic-viability)
-
-[Innovations and Future Directions	12](#innovations-and-future-directions)
-
-[**Regional Perspectives	13**](#regional-perspectives)
-
-[Asia-Pacific	13](#asia-pacific)
-
-[North America	13](#north-america)
-
-[Europe	14](#europe)
-
-[Global Market Dynamics	14](#global-market-dynamics)
-
-[**Future Prospects	14**](#future-prospects)
-
-# **Summary** {#summary}
+# **Summary**
 
 The commercialization of perovskite photovoltaics represents a significant advancement in renewable energy technology, offering a promising alternative to traditional silicon-based solar cells. Since the introduction of perovskite solar cell technology in 2009, efficiencies have dramatically improved from an initial 3.8% to 25.5% by 2020, making them highly competitive within the photovoltaic market.\[1\][\[2\]](https://www.coherentmarketinsights.com/industry-reports/perovskite-solar-cell-market) Perovskite solar cells are notable for their potential lower production costs due to simpler fabrication processes and the abundant availability of materials, which could position them as a cost-effective solution for large-scale solar energy production.[\[2\]](https://www.coherentmarketinsights.com/industry-reports/perovskite-solar-cell-market)
 
@@ -66,7 +17,7 @@ Understanding degradation mechanisms through advanced methodologies is critical 
 
  As perovskite solar technology continues to evolve, it holds the promise of transforming the renewable energy landscape, offering a sustainable alternative to meet the world's increasing energy demands.
 
-# **Technological Advancements** {#technological-advancements}
+# **Technological Advancements** 
 
 The commercialization of perovskite photovoltaics has been driven by significant technological advancements in the field. Since the introduction of perovskite solar cell technology in 2009, the efficiency of these cells has rapidly improved from an initial 3.8% to 25.5% in 2020[\[1\]](https://www.prnewswire.com/news-releases/chinas-perovskite-solar-module-efficiency-exceeds-20-setting-a-new-world-record-301261431.html)[\[2\]](https://www.coherentmarketinsights.com/industry-reports/perovskite-solar-cell-market). This impressive increase in efficiency positions perovskite cells as highly competitive with traditional silicon-based photovoltaic cells, which have average efficiencies ranging from 16-22%[\[2\]](https://www.coherentmarketinsights.com/industry-reports/perovskite-solar-cell-market). 
 
@@ -78,17 +29,17 @@ The industry has seen increased attention and investment as researchers and comp
 
 The journey of perovskite solar cells (PSCs) from the laboratory to commercial markets has been marked by significant advancements and collaborative efforts between academia and industry. Since the introduction of perovskite solar technology in 2009, its efficiency has rapidly evolved from 3.8 percent to an impressive 25.5 percent by 2020, showcasing immense potential for achieving even higher efficiencies and lower production costs[\[1\]](https://www.prnewswire.com/news-releases/chinas-perovskite-solar-module-efficiency-exceeds-20-setting-a-new-world-record-301261431.html). This rapid progress has garnered extensive attention from the industry, positioning large-scale commercial mass production as an imminent milestone. Verde Technologies exemplifies a strategic approach to commercialization, having commenced operations with leading researchers from the University of Vermont and an ambitious group of entrepreneurial students. This collaboration resulted in a comprehensive commercialization plan aimed at transitioning the technology from the laboratory to the market[\[3\]](https://www.verde-technologies.com/about-us/our-story/). Since its public debut in February 2022, Verde Technologies has actively engaged with leading perovskite experts and expanded its team to maintain and accelerate its momentum[\[3\]](https://www.verde-technologies.com/about-us/our-story/). Commercialization efforts for PSCs have faced several challenges, including material properties, fabrication technology, and industrialization issues. Mesoporous Perovskite Solar Cells have demonstrated successful scaling and integration into manufacturing processes, facilitating cost-effective production and driving the global market\[8\]. As the PSC market matures, there is a notable trend towards scaling up manufacturing processes from laboratory-scale to large-scale production to meet the growing demand for renewable energy solutions\[8\]. Additionally, the integration of PSCs into tandem solar cells has been a pivotal development, enhancing the region's manufacturing capabilities and global market demand\[8\]. Despite these advancements, the stability and reliability of PSCs remain critical challenges for commercialization. Researchers emphasize the need for improved long-term stability and efficiency of large-area PSCs, understanding degradation mechanisms, and adopting strategies to enhance operational stability\[5\]\[9\]. Accelerated stability testing is identified as crucial, compressing years of wear and tear into shorter timeframes to ensure deployed solar cells have a lifespan spanning decades\[10\]. This is essential for setting competitive prices and warranties, which are key factors for commercialization. Collaborative efforts between academia and industry have been instrumental in addressing these challenges. For instance, Verde Technologies received the American-Made Perovskite Startup Prize, emphasizing the importance of joint efforts to transition lab-scale breakthroughs into practical applications\[11\]. Research groups such as MIT's ADDEPT project are working to tackle perovskite durability and extend module life, aiming to lower the levelized cost of electricity generated by PV technologies\[11\]. The commercialization of perovskite photovoltaics continues to progress, driven by collaborative efforts, strategic scaling of manufacturing processes, and ongoing research to overcome stability and efficiency challenges. The future looks promising for PSCs as they transition from laboratory successes to practical, impactful renewable energy solutions.
 
-# **Market Potential** {#market-potential}
+# **Market Potential**
 
 The global market potential for perovskite solar cells is significant, with projections indicating robust growth over the next decade. The market is expected to expand at a compound annual growth rate (CAGR) of 30.50% during the forecast period from 2024 to 2032\. Key drivers for this growth include increasing economic growth, the rising need for energy security, and growing environmental concerns which have spurred demand for alternative energy sources to minimize reliance on fossil fuels  
 \[4\]. The COVID-19 pandemic has had a mixed impact on the market. While demand was hindered due to the lockdowns affecting several industries such as transport and supply chains, the long-term outlook remains positive. The pandemic caused disruptions in raw material procurement and price volatility, but it also led industry leaders to rethink strategies to navigate these challenges\[12\]. Innovations in manufacturing processes and the potential for cost reduction are crucial to overcoming existing hurdles. High material costs and current manufacturing risks present challenges, but advancements in monolithic and mechanically stacked tandem production lines offer promising opportunities for cost-effective solutions\[10\]. Additionally, the processing equipment for perovskites is notably less expensive compared to legacy technologies, with costs around US$0.05/Wp at a 500MW scale, significantly lower than the US$0.70 to US$1.00 per watt for older thin-film technologies. This cost advantage accelerates payback periods and mitigates investment risks\[6\]. Despite these technical and economic hurdles, the perovskite solar cell market is poised for substantial growth. Efforts are being made to support real-world testing and pilot projects to validate the technology's efficacy under actual conditions\[6\]. The development of a skilled workforce in mechatronics, logistics, and factory operations is also crucial for advancing the technology and ensuring economic viability\[6\]. Furthermore, achieving cost competitiveness is essential for broader market adoption. The industry focuses on reducing manufacturing costs through cost-effective synthesis methods and efficient material usage. These steps are vital to achieving economic parity with traditional solar technologies, thereby facilitating integration into mainstream energy solutions\[8\]  
 .
 
-# **Industry Players** {#industry-players}
+# **Industry Players** 
 
 The commercialization of perovskite photovoltaics has attracted numerous industry players, each contributing unique advancements and innovations to the market. These companies range from established global leaders to promising startups, all striving to harness the potential of perovskite solar cells.
 
-## **Key Companies and Innovators** {#key-companies-and-innovators}
+## **Key Companies and Innovators**
 
 ### **Oxford PV**
 
@@ -122,76 +73,75 @@ Other companies making notable contributions to the perovskite solar cell market
 
 Collaboration between manufacturers, research institutions, and technology companies is crucial in accelerating the development and commercialization of perovskite solar technology. These alliances pool resources, share expertise, and foster a robust, interconnected ecosystem, facilitating innovation and reducing time-to-market for new technologies\[8\][\[3\]](https://www.verde-technologies.com/about-us/our-story/). By leveraging these collaborative efforts and the advancements made by key industry players, the perovskite solar cell market continues to move towards commercial viability and integration into the global energy infrastructure.
 
-# **Funding and Incentives** {#funding-and-incentives}
+# **Funding and Incentives** 
 
 Continuous funding and government incentives play a crucial role in the development and commercialization of perovskite photovoltaics. Various companies and institutions have secured substantial investments to advance research and scale up production capabilities. One of the notable players, Tandem PV, has recently raised an additional $6 million, bringing its total funding to $27 million through a mix of venture capital and government support\[15\]. The funds will be directed towards advancing research and development (R\&D) and initiating the construction of its first manufacturing facility\[15\]. This funding round was spearheaded by Planetary Technologies, with participation from other institutional investors, including Uncorrelated Ventures and prominent solar industry executives such as Tom Werner, former chairman, president, and CEO of SunPower Corp\[15\]. Tandem PV was founded by Colin Bailie, a pioneer in perovskite-silicon tandem solar panels, and Chris Eberspacher, a technology leader in major solar companies\[16\]. The company's founders initially developed the technology at Cyclotron Road, the U.S. Department of Energy's startup accelerator at Lawrence Berkeley National Laboratory\[16\]. Government assistance also plays a pivotal role in fostering the perovskite photovoltaics market, especially in the Asia Pacific region. Policies and actions aimed at transitioning to sustainable and low-carbon energy systems include financial incentives to encourage the adoption of renewable energy technologies, such as perovskite photovoltaic systems\[17\]. In North America, the market for perovskite photovoltaics is expected to grow significantly due to increasing demand from end-use industries and the presence of key market players\[17\]. Companies in the region are raising funds for R\&D and production expansion. For example, Microquanta Semiconductor announced a Series C investment round in January 2021 to fund the expansion of its 100 MW production line for the perovskite tandem project\[17\]. Similarly, Oxford PV received funding from the Brandenburg Ministry of Economics in November 2020 as part of the EU's Regional Development Programme to advance perovskite solar cell manufacturing\[18\]. Such continuous investment in perovskite solar cell R\&D creates new opportunities for market participants and supports the growth of the industry\[18\]. The primary hurdle in the widespread adoption of perovskite technology lies in overcoming collective challenges and learning from past investment missteps in photovoltaic innovations, particularly those seen during the Cleantech 1.0 and PV 2.0 phases from 2005 to 2015\[6\].
 
-# **Applications** {#applications}
+# **Applications** 
 
 Perovskite solar cells (PSCs) hold significant promise across various applications, reflecting their versatile nature and advanced capabilities compared to traditional silicon-based photovoltaics. The following subsections explore some of the most prominent uses and future potential of PSCs.
 
-## **Building-Integrated Photovoltaics** {#building-integrated-photovoltaics}
+## **Building-Integrated Photovoltaics** 
 
 Perovskite solar cells are not only capable of high efficiency and low-cost production but are also highly adaptable, making them ideal for building-integrated photovoltaics (BIPV). These solar cells can be seamlessly incorporated into building materials such as windows and facades, turning structures into power-generating units without altering their aesthetic appeal or functionality. This integration offers a dual function—serving as both a construction material and a renewable energy source, thereby broadening the market opportunities across various industries \[17\].
 
-## **Space-Based Solar Power** {#space-based-solar-power}
+## **Space-Based Solar Power** 
 
 Another promising application for PSCs is in space-based electricity generation. The unique properties of perovskite materials, such as their lightweight nature and high efficiency, make them particularly suitable for space applications where reducing weight and maximizing power output are crucial. Their ability to retain over 90 percent of their initial performance after 600 hours of continuous operation underscores their durability and reliability for use in the challenging conditions of space \[19\].
 
-## **Tandem Solar Cells** {#tandem-solar-cells}
+## **Tandem Solar Cells** 
 
 PSCs are increasingly being considered for tandem solar cell configurations. These configurations combine perovskites with other materials, like silicon, to surpass the efficiency limits of traditional single-junction solar cells. The low-temperature solution processability and roll-to-roll manufacturing capabilities of perovskites facilitate their integration into tandem cells, which can achieve higher efficiency rates and improved performance metrics. This makes PSCs strong candidates for the next generation of high-efficiency solar technologies \[19\]\[16\].
 
-## **Commercial and Industrial Installations** {#commercial-and-industrial-installations}
-
+## **Commercial and Industrial Installations**
 Given their high power conversion efficiency and lower fabrication costs, PSCs are suitable for large-scale commercial and industrial installations. Advances in PSC technology aim to address issues related to long-term stability and large-area fabrication, which are critical for their broader adoption in commercial applications. As these challenges are overcome, PSCs are expected to become increasingly competitive with traditional silicon-based solar cells, potentially transforming the solar industry \[20\]\[21\].
 
-## **Consumer Electronics** {#consumer-electronics}
+## **Consumer Electronics**
 
 The flexibility and tunability of perovskite materials open up innovative applications in consumer electronics. PSCs can be designed to be lightweight and flexible, making them ideal for portable and wearable electronic devices. Their ability to be produced in various shapes and sizes without significant efficiency losses allows for integration into a wide range of consumer products, driving further innovation in the electronics sector \[22\].
 
-# **Regulatory and Environmental Considerations** {#regulatory-and-environmental-considerations}
+# **Regulatory and Environmental Considerations** 
 
 Establishing industry-wide standards and certifications is a significant challenge in the commercialization of perovskite solar cells (PSCs). The absence of standardized testing protocols and certification processes impedes broader acceptance of this promising technology. Developing consensus on quality benchmarks, reliability standards, and performance metrics is crucial for gaining the trust of investors, manufacturers, and end-users\[8\]. Standardization efforts are essential to ensure a level playing field and facilitate the integration of PSCs into existing solar infrastructure\[5\].
 
-## **Toxicity and Environmental Impact** {#toxicity-and-environmental-impact}
+## **Toxicity and Environmental Impact** 
 
 One of the major concerns in the perovskite solar cell industry is the potential toxicity of certain materials used in their manufacture. Lead, which is a common component in some perovskite formulations, raises significant environmental and health concerns\[8\]. Researchers are actively exploring lead-free alternatives to mitigate these risks, but ensuring the environmental sustainability of PSCs remains a challenge. Balancing performance with eco-friendliness is crucial for broader acceptance and compliance with environmental regulations\[8\]\[23\].
 
-## **Stability and Reliability** {#stability-and-reliability}
+## **Stability and Reliability**
 
 For PSCs to be considered for commercial applications, standard methods must be available to test their stability and reliability. The International Electrotechnical Commission (IEC) sets criteria that can be treated as a standard to evaluate the stability and reliability of PSCs\[5\]. In particular, reports and attempts to achieve high operational stability—such as negligible loss of photovoltaic performance after several hundreds of hours under harsh conditions (e.g., 85°C, 85% relative humidity)—are discussed in the literature\[5\]\[14\]. Understanding degradation mechanisms and improving long-term stability are crucial steps for commercialization\[9\].
 
-## **Cost Competitiveness and Economic Viability** {#cost-competitiveness-and-economic-viability}
+## **Cost Competitiveness and Economic Viability**
 
 The cost competitiveness and economic viability of PSCs are also key factors in their commercialization. Studies have highlighted the importance of structural and compositional characteristics, methodologies for mitigating environmental stressors, and the significance of interfacial engineering as future emerging trends  
 \[23\]. The commercialization of PSCs requires the simultaneous development of high-efficiency devices with large areas and long-term stability to ensure economic feasibility\[8\]\[9\].
 
-## **Innovations and Future Directions** {#innovations-and-future-directions}
+## **Innovations and Future Directions** 
 
 Innovation aimed at making energy clean, affordable, and reliable should be a central goal of climate and energy policy. The transition to net-zero emissions will rely heavily on such innovations, and the perovskite solar cell industry offers a wide range of opportunities to achieve these goals if supported by appropriate innovation policies\[7\]. Emerging operational stability standards and reliable device stability data can circulate within the research community, helping to further improve the operational lifetime and commercialization prospects of PSCs\[9\].
 
-# **Regional Perspectives** {#regional-perspectives}
+# **Regional Perspectives** 
 
-## **Asia-Pacific** {#asia-pacific}
+## **Asia-Pacific** 
 
 The Asia-Pacific region is characterized by a strong commitment to renewable energy and sustainability goals. Countries in this region, recognizing the environmental benefits of perovskite solar cells, have embraced these technologies as part of their broader clean energy strategies\[8\]. Proactive government policies and financial support have fostered a conducive environment for the growth of the perovskite solar industry in Asia-Pacific. Governments have implemented incentives, subsidies, and favorable regulatory frameworks to encourage investments and promote the adoption of emerging renewable energy technologies, including perovskite solar cells\[8\]. The industry's revenue growth in Asia-Pacific is anticipated to accelerate considerably due to the region's fast urbanization, the requirement for alternative energy to minimize reliance on fossil fuels, and government initiatives backing renewable energy technologies\[22\]. The well-developed consumer electronics sector and a strong automotive industry in the region further bolster market growth\[22\]. Countries such as China have seen significant investments in expanding perovskite manufacturing capacities, driven by a large workforce and government incentives, leading to rapid capacity expansion of perovskite makers\[2\].
 
-## **North America** {#north-america}
+## **North America** 
 
 North America is anticipated to account for a significant portion of the global perovskite solar cell market. The region's robust consumer electronics and automotive industries are major drivers of market growth. The presence of significant market competitors and rising demand from end-use sectors further propel the market in North America\[4\]. Oxford PV, a leader in perovskite solar cell technology, is headquartered in the United Kingdom but has a significant impact on the North American market as well\[4\].
 
-## **Europe** {#europe}
+## **Europe** 
 
 Europe also plays a critical role in the perovskite solar cell market, with several major companies such as Oxford PV and Saule Technologies leading innovations and commercializing perovskite-based solar technology. The region benefits from a strong focus on sustainable energy policies and robust R\&D investments, contributing to the advancement and deployment of perovskite solar cell\[14\]. Government policies in European countries support the development and adoption of renewable energy technologies, creating a favorable market environment.
 
 ## 
 
-## **Global Market Dynamics** {#global-market-dynamics}
+## **Global Market Dynamics**
 
 The global perovskite solar cell market is influenced by a variety of factors, including regional government policies, industry collaborations, and advancements in technology. Partnerships and collaborations continue to be major strategies adopted by key players to grow in the perovskite solar cell market. The competitive landscape is marked by joint ventures, mergers and acquisitions, and strategic alliances\[14\]. Major companies in this market include Hanwha Q CELLS, Microquanta Semiconductor, Greatcell Energy, and others, which are strategically analyzing micro-markets with respect to individual growth trends, prospects, and contributions to the overall market\[18\]
 
-# **Future Prospects** {#future-prospects}
+# **Future Prospects** 
 
 The future of perovskite photovoltaics is brimming with potential and significant opportunities. As perovskite technology advances, the emphasis on real-world testing is gaining momentum. Government-sponsored and independent test facilities, alongside pilot testing in third-party financed solar projects, are crucial for validating the performance of perovskite modules in outdoor settings\[6\]. One of the pivotal aspects of leading in perovskite technology involves prioritizing high-tech manufacturing and technical education. There is a pressing need for a workforce adept in mechatronics, logistics, and factory operations to drive a renewed manufacturing-focused economic model. Additionally, refining immigration policies to attract and retain top-tier talent is essential to boost innovation\[6\]. This echoes the success seen in previous industrial achievements such as the interstate highway system and the Apollo Program, which were propelled by unified and dynamic policies\[6\]. Verde Technologies is at the forefront of addressing the challenges related to commercialization and the rapid scaling of manufacturing. With several academic collaborations and commercial partnerships, they are poised to advance perovskite technology from the laboratory to the market. Since its public debut in February 2022, the company has actively engaged with leading perovskite experts and expanded its team to maintain and accelerate its momentum\[3\]. Moreover, policies that create demand alternatives to silicon solar PV are critical to scaling perovskite deployment. These include market-pull policy options such as carveouts within renewable portfolio standards, tiered tax incentives, feed-in-tariffs, and loan guarantees for project developers deploying perovskite technologies\[7\]. Such policies have been instrumental in building the current PV industry in the United States and abroad. The global market for perovskite photovoltaics is also expected to grow significantly. In regions like Asia Pacific, government assistance and incentives have been pivotal in expanding the market. These policies aim to encourage the deployment of renewable energy technologies and accelerate the transition to a more sustainable and low-carbon energy system\[17\]. Similarly, North America is projected to exhibit a significant CAGR, driven by increasing demand from end-use industries and the presence of major market players\[17\]. Looking forward, perovskite solar cells hold the promise of becoming a high-performance, low-cost solution to meet renewable energy targets. Improvements in power conversion efficiency, costs, and degradation rates are essential to achieving a future solar-dominated power grid\[7\]. The ongoing collaborative efforts between governments, academic institutions, and industry players are expected to unlock the full potential of perovskite photovoltaics, making them a cornerstone of the renewable energy landscape.
 
