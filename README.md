@@ -56,7 +56,7 @@ The Tabbre Project is designed to revolutionise energy production by utilising v
 
 **Oceanic Gyres:** The Tabbre Project takes advantage of the areas of water within oceanic gyres — large, circular ocean currents found in the Earth's major oceans. These areas are ideal for deploying floating solar farms because they are remote, largely uninhabited, and devoid of significant marine life. The gyres are situated far from land, where minimal sand and dust are blown into the water, resulting in low levels of iron. This lack of iron means that these waters support little to no plant or animal life, making them ideal for large scale industrial activity without environmental disruption.
 
-![Oceanic Gyres][https://github.com/tabbre-blockchain/Documents/blob/master/images/GyresMap.png?raw=true]
+![Oceanic Gyres](https://github.com/tabbre-blockchain/Documents/blob/master/images/GyresMap.png?raw=true)
 
 **Floating Solar Farms:** Constructed using lightweight, flexible, and recyclable plastic materials, these structures are designed to be durable and capable of withstanding the harsh marine environment. Their flexibility allows the solar panels to conform to the movements of the ocean, reducing the risk of damage from waves and storms.
 
