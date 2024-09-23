@@ -16,7 +16,7 @@ July 2024  <br>
 
 
 
-# **Introduction** {#introduction}
+# **Introduction** 
 
 ## **Tabbre Project Overview**
 
@@ -48,7 +48,7 @@ The Tabbre ecosystem will introduce two new cryptocurrencies: TABB and BRE. TABB
 
 The Tabbre Project seeks to accelerate the transition from fossil fuels to sustainable energy while establishing a decentralized global financial system. By making renewable energy more affordable and accessible, the project aims to mitigate the climate crisis and alleviate global poverty.
 
-# **Energy** {#energy}
+# **Energy** 
 
 The Tabbre Project is designed to revolutionise energy production by utilising vast, floating solar farms in the world’s oceanic gyres. These solar farms are strategically placed in the largely uninhabited and ecologically sparse regions of the South Atlantic, South Pacific, and South Indian Oceans. This innovative approach not only maximises the production of renewable energy but also addresses many of the challenges associated with traditional energy production and distribution.
 
@@ -104,7 +104,7 @@ The key enabling technology for Tabbre’s floating solar farms are perovskite b
 
 **Research and Development:** Ongoing research and development efforts will focus on improving the efficiency of solar panels, electrolysis processes, and the conversion of hydrogen into chemical fuels. Tabbre also plans to explore additional applications for the fuels produced, such as in emerging industries like hydrogen fuel cells and synthetic fertilisers. 
 
-# **The Economic Model** {#the-economic-model}
+# **The Economic Model** 
 
 The world needs about 15 terawatts of solar capacity to properly replace the energy derived from fossil fuels. This will require a solar PV collector area of between 850,000 km2 and 1,200,000 km2. This averages to about 70,000,000 square metres per gigawatt of capacity. Tabbre will ramp up production using the knowledge gained from an incremental deployment of ever greater capacity. Allowing a multi-terawatt capability to be constructed by the early 2040’s.
 
@@ -124,7 +124,7 @@ It is expected that the replacement cost of rafts and harvesters will plunge to 
 
 ![The Tabbre Scheme](https://github.com/tabbre-blockchain/Documents/blob/master/images/Tabbre%20Scheme.png?raw=true)
 
-# **Economic Impact** {#economic-impact}
+# **Economic Impact** 
 
 The Tabbre Project is poised to have significant economic and environmental effects, reshaping global energy markets and contributing to the fight against climate change. The project’s innovative approach to renewable energy production and distribution not only offers a sustainable alternative to fossil fuels but also provides a model for economic development that aligns with environmental stewardship.
 
@@ -150,7 +150,7 @@ The Tabbre Project is poised to have significant economic and environmental effe
 
 **Decentralized Financial Inclusion**: The decentralized nature of the Tabbre financial system allows for greater financial inclusion. Individuals and businesses in regions with limited access to traditional banking services can participate in the global economy through the use of TABB and BRE. This inclusion promotes economic equality and empowers individuals in economically disadvantaged areas.
 
-# **Environmental Impact** {#environmental-impact}
+# **Environmental Impact** 
 
 ## **Reduction of Greenhouse Gas Emissions**
 
@@ -176,7 +176,7 @@ The Tabbre Project is poised to have significant economic and environmental effe
 
 * **Promoting Circular Economy Practices:** The Tabbre Project’s commitment to recycling and the use of sustainable materials supports the principles of a circular economy, where resources are reused and recycled rather than discarded. This approach reduces waste, conserves natural resources, and minimises the environmental impact of energy production.
 
-# **Cryptocurrency & Blockchain**  {#cryptocurrency-&-blockchain}
+# **Cryptocurrency & Blockchain**  
 
 The Tabbre Project's integration of cryptocurrency and blockchain technology is central to its innovative approach to funding, managing, and expanding its sustainable energy initiatives. This integration is structured around two primary digital currencies, TABB and BRE. These are both expressed on the TabbreChain, a dedicated proof of stake (PoS) blockchain.
 
@@ -246,7 +246,7 @@ The Tabbre Project's integration of cryptocurrency and blockchain technology is 
 
 **Global Reach and Adoption:** The ultimate goal of the Tabbre Project is to achieve global adoption of its cryptocurrencies. By providing a stable, efficient, and transparent financial system, the project aims to attract users from all corners of the world, regardless of their location or economic status. This global reach is supported by the decentralized nature of the project, which allows anyone with internet access to participate in the ecosystem.
 
-# **Road Map** {#road-map}
+# **Road Map** 
 
 | PHASE 1 Concept Stage  Now \- Q1/25 | Establish Tabbre Project and raise initial funding Validate models, strategy, white papers Recruit team, establish Tabbre Foundation List TABB/BRE on exchanges |  |
 | :---- | ----- | ----- |
@@ -257,7 +257,7 @@ The Tabbre Project's integration of cryptocurrency and blockchain technology is 
 | **PHASE 5 Multi-Gigawatt Scale**  Multi-year | **Objective: Achieve full global acceptance of BRE as a self-sovereign reserve currency.** Set up process for TABB buy backs Set up process for BRE based global UBI Start TABB buy and burn | **Objective: Achieve full global scale production as the lowest cost energy producer.** Complete multi-gigawatt funding round Scale up manufacturing plants  Commence full scale production |
 | **PHASE 6 Terawatt Scale**  2030s | **Initiate Global Universal Basic Income (GUBI).** This requires Global Registration Scheme  Fully operational Tabbre multi-chain global ledger Start TABB buy and burn | **Maintain full global scale production as the lowest cost energy producer.** Scaleup to multi-terawatt capacity  |
 
-# **Conclusion** {#conclusion}
+# **Conclusion** 
 
 Tabbre has the potential to transform the course of history. Tabbre’s floating solar farms and associated methane and ammonia production facilities will provide an unlimited supply of cheap, carbon neutral fully sustainable energy for all of humanity's foreseeable needs. 
 
