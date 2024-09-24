@@ -1,6 +1,9 @@
-<p style="font-size:3rem;"><b>Bitcoin Energy Consumption</b></b></p>
+![](https://raw.githubusercontent.com/tabbre-blockchain/icons/refs/heads/main/logoTabbre.png)
 
-<p style="font-size:3rem;"><b>Global Financial Assets and Money Supply</b></b></p>
+<p style="font-size:3rem;"><b>Bitcoin Energy Consumption</b></b></p
+
+<p style="font-size:3rem;"><b>Global Financial Assets and Money Supply</b></b>
+</p><p style="font-size:3rem;"><b>Tabbre Research</b></b></p>
 
 
 
