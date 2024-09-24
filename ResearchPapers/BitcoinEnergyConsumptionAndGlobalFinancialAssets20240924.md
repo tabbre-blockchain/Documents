@@ -2,8 +2,18 @@
 
 <p style="font-size:3rem;"><b>Bitcoin Energy Consumption</b></b></p
 
-<p style="font-size:3rem;"><b>Global Financial Assets and Money Supply</b></b>
-</p><p style="font-size:3rem;"><b>Tabbre Research</b></b></p>
+<p style="font-size:3rem;"><b>Global Financial Assets and Money Supply</b></p>
+<p style="font-size:2rem;"><b>Tabbre Research</b></b></p>
+
+<p style="font-size:2rem;"><b>20240923</b><br></p> 
+
+<p style="font-size:2rem;"><b> C Cunningham</b></b></p>
+
+
+
+
+
+[TOC]
 
 
 

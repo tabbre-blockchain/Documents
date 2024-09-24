@@ -1,0 +1,671 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left: 0.25em solid rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    pre {
+        page-break-inside: avoid;
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+
+</style><title>BitcoinEnergyConsumptionAndGlobalFinancialAssets20240924</title>
+</head>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><p><img src="https://raw.githubusercontent.com/tabbre-blockchain/icons/refs/heads/main/logoTabbre.png" referrerpolicy="no-referrer"></p><p style="font-size:3rem;"><b>Bitcoin Energy Consumption</b></b></p<p style="font-size:3rem;"><b>Global Financial Assets and Money Supply</b></p>
+<p style="font-size:2rem;"><b>Tabbre Research</b></b></p><p style="font-size:2rem;"><b>20240923</b><br></p> <p style="font-size:2rem;"><b> C Cunningham</b></b></p><p>&nbsp;</p><p>&nbsp;</p><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n663"><a class="md-toc-inner" href="#how-many-btc-are-there-and-how-much-energy-is-currently-used-by-the-bitcoin-network">How many BTC are there? and how much energy is currently used by the Bitcoin network?</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n665"><a class="md-toc-inner" href="#bitcoin-supply">Bitcoin Supply</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n667"><a class="md-toc-inner" href="#bitcoin-network-energy-consumption">Bitcoin Network Energy Consumption</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n691"><a class="md-toc-inner" href="#bitcoin-price-vs-mining-costs">Bitcoin Price vs. Mining Costs</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n704"><a class="md-toc-inner" href="#energy-consumption-trends">Energy Consumption Trends</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n713"><a class="md-toc-inner" href="#sustainability-efforts">Sustainability Efforts</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n722"><a class="md-toc-inner" href="#global-financial-assets">Global Financial Assets</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n740"><a class="md-toc-inner" href="#global-financial-assets-2">Global Financial Assets</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n742"><a class="md-toc-inner" href="#global-gdp">Global GDP</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n754"><a class="md-toc-inner" href="#comparison">Comparison</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n763"><a class="md-toc-inner" href="#additional-context">Additional Context</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n773"><a class="md-toc-inner" href="#what-is-the-ratio-of-value-of-money-created-by-the-banking-system-to-gdp">What is the ratio of value of money created by the banking system to GDP?</a></span><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n816"><a class="md-toc-inner" href="#typical-ratios-of-bank-deposits-to-gdp-in-oecd-countries">typical ratios of bank deposits to GDP in OECD countries</a></span></p></div><p>&nbsp;</p><h1 id='how-many-btc-are-there-and-how-much-energy-is-currently-used-by-the-bitcoin-network'><span>How many BTC are there? and how much energy is currently used by the Bitcoin network?</span></h1><p><span>To answer your query about Bitcoin (BTC) and its energy consumption:</span></p><h2 id='bitcoin-supply'><span>Bitcoin Supply</span></h2><p><span>There are currently approximately </span><strong><span>19.5 million BTC</span></strong><span> in circulation. The maximum supply of Bitcoin is capped at 21 million coins, which is expected to be reached around the year 2140 due to the halving mechanism built into the Bitcoin protocol.</span></p><h2 id='bitcoin-network-energy-consumption'><span>Bitcoin Network Energy Consumption</span></h2><p><span>The Bitcoin network&#39;s energy consumption is significant and a topic of ongoing debate. Here are the key points:</span></p><ol start='' ><li><p><strong><span>Annual Energy Usage</span></strong><span>: Bitcoin currently consumes approximately 160 terawatt-hours (TWh) of electricity annually[1]. This is more than the entire electricity consumption of some countries, such as Argentina.</span></p></li><li><p><strong><span>Percentage of Global Energy</span></strong><span>: Bitcoin mining consumes roughly 0.5% of all energy consumption worldwide[1].</span></p></li><li><p><strong><span>Comparison to Other Systems</span></strong><span>: </span></p><ul><li><p><span>Bitcoin uses more than 7 times as much electricity as all of Google&#39;s global operations[1].</span></p></li><li><p><span>It uses about 2% of the amount of electricity consumed by the USA every year[1].</span></p></li></ul></li><li><p><strong><span>Per Transaction Energy Cost</span></strong><span>: One Bitcoin transaction can use up to 1,200 kWh of energy, which is equivalent to almost 100,000 VISA transactions[1].</span></p></li><li><p><strong><span>Environmental Impact</span></strong><span>: Bitcoin mining generates around 22-23 million metric tons of carbon dioxide annually[1]. Its energy consumption emits about 65 megatons of carbon dioxide into the atmosphere each year, comparable to the emissions of Greece[1].</span></p></li><li><p><strong><span>Alternative Estimates</span></strong><span>: According to the Cambridge Center for Alternative Finance (CCAF), Bitcoin consumes around 110 Terawatt Hours per year, which is about 0.55% of global electricity production[4].</span></p></li></ol><p><span>It&#39;s important to note that these figures can fluctuate based on the Bitcoin network&#39;s hash rate, the efficiency of mining equipment, and the sources of electricity used for mining operations. The high energy consumption of Bitcoin has led to ongoing discussions about its environmental impact and potential solutions for improving its sustainability.</span></p><p><span>Citations:</span>
+<span>[1] </span><a href='https://buybitcoinworldwide.com/bitcoin-mining-statistics/' target='_blank' class='url'>https://buybitcoinworldwide.com/bitcoin-mining-statistics/</a>
+<span>[2] </span><a href='https://rmi.org/cryptocurrencys-energy-consumption-problem/' target='_blank' class='url'>https://rmi.org/cryptocurrencys-energy-consumption-problem/</a>
+<span>[3] </span><a href='https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/' target='_blank' class='url'>https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/</a>
+<span>[4] </span><a href='https://hbr.org/2021/05/how-much-energy-does-bitcoin-actually-consume' target='_blank' class='url'>https://hbr.org/2021/05/how-much-energy-does-bitcoin-actually-consume</a>
+<span>[5] </span><a href='https://digiconomist.net/bitcoin-energy-consumption/' target='_blank' class='url'>https://digiconomist.net/bitcoin-energy-consumption/</a>
+<span>[6] </span><a href='https://ccaf.io/cbeci/' target='_blank' class='url'>https://ccaf.io/cbeci/</a>
+<span>[7] </span><a href='https://www.forbes.com/advisor/investing/cryptocurrency/bitcoins-energy-usage-explained/' target='_blank' class='url'>https://www.forbes.com/advisor/investing/cryptocurrency/bitcoins-energy-usage-explained/</a>
+<span>[8] </span><a href='https://crypto.com/bitcoin/bitcoin-energy-consumption' target='_blank' class='url'>https://crypto.com/bitcoin/bitcoin-energy-consumption</a></p><p>&nbsp;</p><p>&nbsp;</p><h2 id='bitcoin-price-vs-mining-costs'><span>Bitcoin Price vs. Mining Costs</span></h2><p><span>The relationship between Bitcoin&#39;s price and mining costs is complex and has fluctuated over time. Here are some key points to consider:</span></p><ol start='' ><li><p><strong><span>Price Volatility</span></strong><span>: Bitcoin&#39;s price is highly volatile, while energy costs tend to be more stable. This means the profitability of mining can change rapidly even if energy costs remain relatively constant.</span></p></li><li><p><strong><span>Mining Efficiency</span></strong><span>: The efficiency of mining hardware has improved significantly over time, allowing miners to produce more Bitcoin for the same amount of energy input. This has helped offset rising energy costs to some extent.</span></p></li><li><p><strong><span>Halving Events</span></strong><span>: Bitcoin&#39;s block reward halves approximately every four years, which directly impacts mining profitability. These events can create mismatches between mining costs and Bitcoin&#39;s price.</span></p></li><li><p><strong><span>Current Estimates</span></strong><span>: As of 2024, the average cost of production per Bitcoin post-halving is estimated to be around $37,856, according to CoinShares research[2]. This suggests that at current prices (around $40,000-$45,000 per Bitcoin), mining is still profitable for many operators.</span></p></li><li><p><strong><span>Energy Cost Variations</span></strong><span>: Bitcoin miners consistently seek the most affordable energy sources, often utilizing stranded energy in remote locations. This can help keep costs down even as overall energy consumption increases.</span></p></li></ol><h2 id='energy-consumption-trends'><span>Energy Consumption Trends</span></h2><p><span>While Bitcoin&#39;s price has not always kept pace with energy costs, the network&#39;s energy consumption has continued to grow:</span></p><ol start='' ><li><p><strong><span>Current Consumption</span></strong><span>: Bitcoin currently consumes approximately 160 terawatt-hours of electricity annually, which is more than some countries like Argentina[1].</span></p></li><li><p><strong><span>Increasing Demand</span></strong><span>: The network&#39;s power demand has reached an all-time high of 115 terawatt-hours (TWh) on an annualized basis, marking a 44% increase in 2023[2].</span></p></li><li><p><strong><span>Efficiency Improvements</span></strong><span>: Despite increasing power demand, there have been significant improvements in mining efficiency. The network&#39;s average efficiency is currently 34W/T (watts per terahash), with projections showing a potential drop to 10W/T by mid-2026[2].</span></p></li></ol><h2 id='sustainability-efforts'><span>Sustainability Efforts</span></h2><p><span>The Bitcoin mining industry is making efforts to improve sustainability:</span></p><ol start='' ><li><p><strong><span>Renewable Energy Use</span></strong><span>: Approximately 53% of Bitcoin mining energy is now sustainably sourced, according to some estimates[2].</span></p></li><li><p><strong><span>Emissions Reduction</span></strong><span>: Since 2021, emissions have reportedly dropped from nearly 600 grams of CO2 per kWh to 299 grams of CO2 per kWh[2].</span></p></li></ol><p><span>In conclusion, while Bitcoin&#39;s price has not always kept direct pace with energy costs, improvements in mining efficiency and the use of cheaper, often renewable energy sources have helped maintain profitability for many miners. However, the ongoing increase in energy consumption remains a significant concern for the industry&#39;s sustainability.</span></p><p><span>Citations:</span>
+<span>[1] </span><a href='https://buybitcoinworldwide.com/bitcoin-mining-statistics/' target='_blank' class='url'>https://buybitcoinworldwide.com/bitcoin-mining-statistics/</a>
+<span>[2] </span><a href='https://coinshares.com/research/2024-mining-report' target='_blank' class='url'>https://coinshares.com/research/2024-mining-report</a>
+<span>[3] </span><a href='https://rmi.org/cryptocurrencys-energy-consumption-problem/' target='_blank' class='url'>https://rmi.org/cryptocurrencys-energy-consumption-problem/</a>
+<span>[4] </span><a href='https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/' target='_blank' class='url'>https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/</a>
+<span>[5] </span><a href='https://hbr.org/2021/05/how-much-energy-does-bitcoin-actually-consume' target='_blank' class='url'>https://hbr.org/2021/05/how-much-energy-does-bitcoin-actually-consume</a>
+<span>[6] </span><a href='https://www.sciencedirect.com/science/article/pii/S259005442200015X' target='_blank' class='url'>https://www.sciencedirect.com/science/article/pii/S259005442200015X</a>
+<span>[7] </span><a href='https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Financial_corporations_-_statistics_on_financial_assets_and_liabilities' target='_blank' class='url'>https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Financial_corporations_-_statistics_on_financial_assets_and_liabilities</a>
+<span>[8] </span><a href='https://www.mckinsey.com/mgi/overview/the-future-of-wealth-and-growth-hangs-in-the-balance' target='_blank' class='url'>https://www.mckinsey.com/mgi/overview/the-future-of-wealth-and-growth-hangs-in-the-balance</a></p><h1 id='global-financial-assets'><span>Global Financial Assets</span></h1><p>&nbsp;</p><p><span>The total value of global financial assets is estimated to be around $510-520 trillion as of 2022-2023. Specifically:</span></p><ol start='' ><li><p><span>According to McKinsey&#39;s analysis, the financial balance sheet of households, corporations, and governments has approximately $510 trillion in financial assets like stocks, bonds, pension funds, etc[2].</span></p></li><li><p><span>The same McKinsey report states that financial institutions hold about $510 trillion in financial assets and a similar level of liabilities[2].</span></p></li><li><p><span>A PwC report forecasts that global Assets under Management (AuM) will reach $145.4 trillion by 2025, up from $84.9 trillion in 2016[3]. While this is a significant portion, it does not represent the total value of all financial assets globally.</span></p></li><li><p><span>The Financial Stability Board&#39;s 2023 report indicates that total global financial assets decreased slightly by 0.4% in 2022, following years of continued growth[4]. This suggests the total value has remained relatively stable around the $510-520 trillion mark.</span></p></li><li><p><span>UBS&#39;s Global Wealth Report 2023 mentions that total net private wealth fell 2.4% to $454.4 trillion at the end of 2022[5]. However, this figure includes both financial and non-financial assets, so the total value of financial assets alone would be lower.</span></p></li></ol><p><span>It&#39;s important to note that these figures can fluctuate based on market conditions, exchange rates, and other economic factors. The most consistent estimate across the provided sources points to a total value of global financial assets of approximately $510-520 trillion.</span></p><p><span>Citations:</span>
+<span>[1] </span><a href='https://www.statista.com/statistics/321982/private-wealth-selected-regions-worldwide/' target='_blank' class='url'>https://www.statista.com/statistics/321982/private-wealth-selected-regions-worldwide/</a>
+<span>[2] </span><a href='https://www.mckinsey.com/industries/financial-services/our-insights/the-rise-and-rise-of-the-global-balance-sheet-how-productively-are-we-using-our-wealth' target='_blank' class='url'>https://www.mckinsey.com/industries/financial-services/our-insights/the-rise-and-rise-of-the-global-balance-sheet-how-productively-are-we-using-our-wealth</a>
+<span>[3] </span><a href='https://www.pwc.com/ng/en/press-room/global-assets-under-management-set-to-rise.html' target='_blank' class='url'>https://www.pwc.com/ng/en/press-room/global-assets-under-management-set-to-rise.html</a>
+<span>[4] </span><a href='https://www.fsb.org/2023/12/global-monitoring-report-on-non-bank-financial-intermediation-2023/' target='_blank' class='url'>https://www.fsb.org/2023/12/global-monitoring-report-on-non-bank-financial-intermediation-2023/</a>
+<span>[5] </span><a href='https://www.ubs.com/global/en/family-office-uhnw/reports/global-wealth-report-2023/exploring.html' target='_blank' class='url'>https://www.ubs.com/global/en/family-office-uhnw/reports/global-wealth-report-2023/exploring.html</a>
+<span>[6] </span><a href='https://www.credit-suisse.com/about-us/en/reports-research/global-wealth-report.html' target='_blank' class='url'>https://www.credit-suisse.com/about-us/en/reports-research/global-wealth-report.html</a>
+<span>[7] </span><a href='https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/' target='_blank' class='url'>https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/</a>
+<span>[8] </span><a href='https://rmi.org/cryptocurrencys-energy-consumption-problem/' target='_blank' class='url'>https://rmi.org/cryptocurrencys-energy-consumption-problem/</a></p><p>&nbsp;</p><p><span>To compare the value of global financial assets to global GDP:</span></p><h2 id='global-financial-assets-2'><span>Global Financial Assets</span></h2><p><span>The total value of global financial assets is estimated to be around $510-520 trillion as of 2022-2023[1]. This includes assets like stocks, bonds, pension funds, and other financial instruments held by households, corporations, governments, and financial institutions.</span></p><h2 id='global-gdp'><span>Global GDP</span></h2><p><span>Based on the most recent data provided, the combined GDP of some major economies in 2023 was:</span></p><ul><li><p><span>United States: $27.36 trillion</span></p></li><li><p><span>China: $17.79 trillion</span></p></li><li><p><span>Germany: $4.46 trillion</span></p></li><li><p><span>Japan: $4.21 trillion</span></p></li></ul><p><span>While this doesn&#39;t represent the entire global GDP, it gives us a sense of scale. The total global GDP is estimated to be around $100-110 trillion.</span></p><h2 id='comparison'><span>Comparison</span></h2><p><span>Comparing these figures:</span></p><ol start='' ><li><p><span>The value of global financial assets ($510-520 trillion) is approximately 5 times larger than the global GDP ($100-110 trillion).</span></p></li><li><p><span>Financial assets represent about 500% of global economic output.</span></p></li><li><p><span>This ratio has grown significantly over the past two decades. Before 2000, global net worth largely tracked GDP growth, but since then, asset values and debt have been growing much faster than GDP[1].</span></p></li></ol><h2 id='additional-context'><span>Additional Context</span></h2><ul><li><p><span>Real estate makes up a significant portion of global wealth, with the total value of the world&#39;s property estimated at $379.7 trillion at the end of 2022[3].</span></p></li><li><p><span>The divergence between financial asset growth and GDP growth is partly due to asset price inflation, which created about $160 trillion in &quot;paper wealth&quot; between 2000 and 2021[1].</span></p></li><li><p><span>This growth in financial assets relative to GDP raises questions about the productivity of wealth and the potential risks of asset bubbles or market corrections</span>[<span>1</span>][2]<span>.</span></p></li></ul><p><span>In summary, the value of global financial assets far exceeds global GDP, reflecting a significant accumulation of wealth in financial instruments compared to the annual economic output of the world.</span></p><p><span>Citations:</span>
+<span>[1] </span><a href='https://www.mckinsey.com/mgi/overview/the-future-of-wealth-and-growth-hangs-in-the-balance' target='_blank' class='url'>https://www.mckinsey.com/mgi/overview/the-future-of-wealth-and-growth-hangs-in-the-balance</a>
+<span>[2] </span><a href='https://www.mckinsey.com/industries/financial-services/our-insights/the-rise-and-rise-of-the-global-balance-sheet-how-productively-are-we-using-our-wealth' target='_blank' class='url'>https://www.mckinsey.com/industries/financial-services/our-insights/the-rise-and-rise-of-the-global-balance-sheet-how-productively-are-we-using-our-wealth</a>
+<span>[3] </span><a href='https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate-property-remains-the-worlds-biggest-store-of-wealth.html' target='_blank' class='url'>https://www.savills.com/impacts/market-trends/the-total-value-of-global-real-estate-property-remains-the-worlds-biggest-store-of-wealth.html</a>
+<span>[4] </span><a href='https://www.ubs.com/global/en/family-office-uhnw/reports/global-wealth-report-2023/exploring.html' target='_blank' class='url'>https://www.ubs.com/global/en/family-office-uhnw/reports/global-wealth-report-2023/exploring.html</a>
+<span>[5] </span><a href='https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Financial_corporations_-_statistics_on_financial_assets_and_liabilities' target='_blank' class='url'>https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Financial_corporations_-_statistics_on_financial_assets_and_liabilities</a>
+<span>[6] </span><a href='https://www.statista.com/statistics/321982/private-wealth-selected-regions-worldwide/' target='_blank' class='url'>https://www.statista.com/statistics/321982/private-wealth-selected-regions-worldwide/</a>
+<span>[7] </span><a href='https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp' target='_blank' class='url'>https://www.investopedia.com/ask/answers/030515/what-percentage-global-economy-comprised-financial-services-sector.asp</a>
+<span>[8] </span><a href='https://www.pwc.com/ng/en/press-room/global-assets-under-management-set-to-rise.html' target='_blank' class='url'>https://www.pwc.com/ng/en/press-room/global-assets-under-management-set-to-rise.html</a></p><h1 id='what-is-the-ratio-of-value-of-money-created-by-the-banking-system-to-gdp'><span>What is the ratio of value of money created by the banking system to GDP?</span></h1><p><a href='https://en.wikipedia.org/wiki/Money_creation'><span>Money creation</span></a></p><p><span>Process of increasing the money supply</span></p><p><span>Definition</span></p><p><span>Money creation, also known as money issuance, refers to how a country&#39;s or region&#39;s money supply is increased.</span></p><p><span>Main Participants</span></p><p><span>In most modern economies, money is created by both central banks and commercial banks.</span></p><p><span>Reserve Deposits</span></p><p><span>Money issued by central banks is termed reserve deposits, available only to central bank account holders, mainly large commercial banks and foreign central banks.</span></p><p><span>Central Bank Methods</span></p><p><span>Central banks can increase the quantity of reserve deposits directly through open market operations or quantitative easing.</span></p><p><span>Role of Commercial Banks</span></p><p><span>The majority of the money supply used by the public is created by the commercial banking system in the form of bank deposits, expanded through bank loans.</span></p><p>&nbsp;</p><p><span>To answer your query about the ratio of money created by the banking system to GDP, we need to consider several factors:</span></p><ol start='' ><li><p><span>Money Creation by Banks:</span>
+<span>Banks create money primarily through lending. When a bank issues a loan, it creates new deposits in the borrower&#39;s account, effectively creating new money. This process is responsible for creating the majority of money in modern economies.</span></p></li><li><p><span>Money Supply:</span>
+<span>In most modern economies, bank deposits (created through lending) make up a significant portion of the money supply. For example:</span></p></li></ol><ul><li><p><span>In the UK, about 97% of the money in the economy exists as bank deposits, while only 3% is physical cash[1].</span></p></li><li><p><span>In the US, the ratio of bank deposits to physical currency is about 8 to 1[3].</span></p></li></ul><ol start='3' ><li><p><span>Money Creation Rate:</span>
+<span>According to the information provided, banks have increased the amount of money in the economy by an average of 11.5% per year over the last 40 years[1].</span></p></li><li><p><span>GDP Growth:</span>
+<span>While not explicitly stated in the search results, typical GDP growth rates in developed economies are generally lower than 11.5% per year.</span></p></li><li><p><span>Money Multiplier:</span>
+<span>While the concept of the money multiplier (which suggested a fixed ratio between central bank money and broad money supply) has largely been abandoned, banks can still expand the money supply far beyond the amount of reserve deposits created by the central bank[3].</span></p></li></ol><p><span>Given these factors, we can infer that the ratio of money created by the banking system to GDP is likely to be quite high, potentially several times GDP. However, it&#39;s important to note that:</span></p><ol start='' ><li><p><span>The exact ratio would vary by country and over time.</span></p></li><li><p><span>This ratio doesn&#39;t necessarily indicate economic health or instability, as it&#39;s a complex relationship influenced by many factors.</span></p></li><li><p><span>The money created by banks through lending is balanced by corresponding debts, so it doesn&#39;t represent net wealth creation.</span></p></li></ol><p><span>While we don&#39;t have a precise figure from the given information, it&#39;s clear that the banking system creates a significant amount of money relative to GDP, often outpacing GDP growth. This underscores the important role of banks in modern monetary systems and the economy at large.</span></p><p><span>Citations:</span>
+<span>[1] </span><a href='https://positivemoney.org/archive/how-banks-create-money/' target='_blank' class='url'>https://positivemoney.org/archive/how-banks-create-money/</a>
+<span>[2] </span><a href='https://www.bankofengland.co.uk/explainers/how-is-money-created' target='_blank' class='url'>https://www.bankofengland.co.uk/explainers/how-is-money-created</a>
+<span>[3] </span><a href='https://en.wikipedia.org/wiki/Money_creation' target='_blank' class='url'>https://en.wikipedia.org/wiki/Money_creation</a>
+<span>[4] </span><a href='https://www.investopedia.com/articles/investing/081415/understanding-how-federal-reserve-creates-money.asp' target='_blank' class='url'>https://www.investopedia.com/articles/investing/081415/understanding-how-federal-reserve-creates-money.asp</a>
+<span>[5] </span><a href='https://open.lib.umn.edu/principleseconomics/chapter/24-2-the-banking-system-and-money-creation/' target='_blank' class='url'>https://open.lib.umn.edu/principleseconomics/chapter/24-2-the-banking-system-and-money-creation/</a>
+<span>[6] </span><a href='https://courses.lumenlearning.com/wm-macroeconomics/chapter/how-banks-create-money/' target='_blank' class='url'>https://courses.lumenlearning.com/wm-macroeconomics/chapter/how-banks-create-money/</a>
+<span>[7] </span><a href='https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics/ap-financial-sector/banking-and-the-expansion-of-the-money-supply-ap/a/banking-and-the-expansion-of-the-money-supply' target='_blank' class='url'>https://www.khanacademy.org/economics-finance-domain/ap-macroeconomics/ap-financial-sector/banking-and-the-expansion-of-the-money-supply-ap/a/banking-and-the-expansion-of-the-money-supply</a>
+<span>[8] </span><a href='https://www.mckinsey.com/industries/financial-services/our-insights/the-rise-and-rise-of-the-global-balance-sheet-how-productively-are-we-using-our-wealth' target='_blank' class='url'>https://www.mckinsey.com/industries/financial-services/our-insights/the-rise-and-rise-of-the-global-balance-sheet-how-productively-are-we-using-our-wealth</a></p><p>&nbsp;</p><h1 id='typical-ratios-of-bank-deposits-to-gdp-in-oecd-countries'><span>typical ratios of bank deposits to GDP in OECD countries</span></h1><p>&nbsp;</p><p>&nbsp;</p><p><span>Based on the information provided in the search results, here are some key points about typical ratios of bank deposits to GDP in OECD countries:</span></p><ol start='' ><li><p><span>Variation across countries: The ratio of bank deposits to GDP varies significantly between countries, even within the OECD.</span></p></li><li><p><span>UK example: In the United Kingdom, gross bank deposits outweigh the physical currency issued by the central bank by a factor of more than 30 to 1. This suggests a very high ratio of bank deposits to GDP.</span></p></li><li><p><span>US example: In the United States, the ratio of bank deposits to physical currency is about 8 to 1. While this is not directly comparable to GDP, it indicates a lower ratio than the UK but still substantial.</span></p></li><li><p><span>Growth trend: The search results indicate that bank deposits have been growing faster than GDP in several major economies:</span></p><ul><li><p><span>In the United States, currency and deposits in commercial and central banks expanded from 0.6 times GDP in 1995 to 1.2 times GDP in 2021.</span></p></li><li><p><span>In the United Kingdom, deposits grew from 1.9 times GDP in 2000 to 3.5 times GDP in 2021.</span></p></li><li><p><span>In Germany, deposits increased from 1.4 times GDP to 1.9 times GDP over a similar period.</span></p></li></ul></li><li><p><span>Definition: The World Bank defines the &quot;Bank deposits to GDP (%)&quot; indicator as &quot;The total value of demand, time and saving deposits at domestic deposit money banks as a share of GDP.&quot;</span></p></li></ol><p><span>While the search results don&#39;t provide a comprehensive list of ratios for all OECD countries, they suggest that typical ratios of bank deposits to GDP in OECD countries range from about 1.2 to 3.5 times GDP, with significant variation between countries. The trend appears to be towards higher ratios over time, with bank deposits growing faster than GDP in many economies.</span></p><p><span>Citations:</span>
+<span>[1] </span><a href='https://www.mckinsey.com/mgi/overview/the-future-of-wealth-and-growth-hangs-in-the-balance' target='_blank' class='url'>https://www.mckinsey.com/mgi/overview/the-future-of-wealth-and-growth-hangs-in-the-balance</a>
+<span>[2] </span><a href='https://open.lib.umn.edu/principleseconomics/chapter/24-2-the-banking-system-and-money-creation/' target='_blank' class='url'>https://open.lib.umn.edu/principleseconomics/chapter/24-2-the-banking-system-and-money-creation/</a>
+<span>[3] </span><a href='https://en.wikipedia.org/wiki/Money_creation' target='_blank' class='url'>https://en.wikipedia.org/wiki/Money_creation</a>
+<span>[4] </span><a href='https://databank.worldbank.org/metadataglossary/global-financial-development/series/GFDD.OI.02' target='_blank' class='url'>https://databank.worldbank.org/metadataglossary/global-financial-development/series/GFDD.OI.02</a>
+<span>[5] </span><a href='https://jurnal.stiekn.ac.id/index.php/jmj/article/download/12/12' target='_blank' class='url'>https://jurnal.stiekn.ac.id/index.php/jmj/article/download/12/12</a>
+<span>[6] </span><a href='https://oecdstatistics.blog/2024/03/28/tips-for-reading-government-debt-to-gdp-ratios/' target='_blank' class='url'>https://oecdstatistics.blog/2024/03/28/tips-for-reading-government-debt-to-gdp-ratios/</a>
+<span>[7] </span><a href='https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1797.el.pdf' target='_blank' class='url'>https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1797.el.pdf</a>
+<span>[8] </span><a href='https://en.wikipedia.org/wiki/Debt-to-GDP_ratio' target='_blank' class='url'>https://en.wikipedia.org/wiki/Debt-to-GDP_ratio</a></p></div></div>
+</body>
+</html>
